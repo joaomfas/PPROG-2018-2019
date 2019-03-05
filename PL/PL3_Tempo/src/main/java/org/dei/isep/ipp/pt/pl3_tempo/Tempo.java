@@ -15,6 +15,15 @@ public class Tempo {
     private int minuto = 0;
     private int segundo = 0;
 
+    /**
+     *
+     * Verifica se os parametros inseridos são válidos.
+     *
+     * @param hora
+     * @param minuto
+     * @param segundo
+     * @return
+     */
     private boolean verificaInput(int hora, int minuto, int segundo) {
         boolean verifica = true;
         if (hora > 23 || hora < 0 || minuto < 0 || segundo < 0 || minuto > 60 || segundo > 60) {
@@ -23,6 +32,14 @@ public class Tempo {
         return verifica;
     }
 
+    /**
+     *
+     * Constrói uma instância de Tempo com os parametros hora, minuto, segundo.
+     *
+     * @param hora
+     * @param minuto
+     * @param segundo
+     */
     public Tempo(int hora, int minuto, int segundo) {
         if (verificaInput(hora, minuto, segundo)) {
             this.hora = hora;
@@ -31,45 +48,105 @@ public class Tempo {
         }
     }
 
+    /**
+     *
+     * Devolve a hora do Tempo.
+     *
+     * @return
+     */
     public int getHora() {
         return hora;
     }
 
+    /**
+     *
+     * Devolve o minuto do Tempo
+     *
+     * @return
+     */
     public int getMinuto() {
         return minuto;
     }
 
+    /**
+     *
+     * Devolve o segundo do Tempo.
+     *
+     * @return
+     */
     public int getSegundo() {
         return segundo;
     }
 
+    /**
+     *
+     * Modifica a hora do Tempo
+     *
+     * @param hora
+     */
     public void setHora(int hora) {
         this.hora = hora;
     }
 
+    /**
+     *
+     * Modifica o minuto do Tempo
+     *
+     * @param minuto
+     */
     public void setMinuto(int minuto) {
         this.minuto = minuto;
     }
 
+    /**
+     *
+     * Modifica o segundo do Tempo
+     *
+     * @param segundo
+     */
     public void setSegundo(int segundo) {
         this.segundo = segundo;
     }
 
+    /**
+     *
+     * Devolve o Tempo no formato 24h.
+     *
+     * @return
+     */
     public String getTempo24h() {
         String tempo = hora + ":" + minuto + ":" + segundo;
         return tempo;
     }
 
+    /**
+     *
+     * Devolve a descrição textual do Tempo no formato: hora:minuto:segundo
+     *
+     * @return
+     */
     @Override
     public String toString() {
         return this.hora + ":" + this.minuto + ":" + this.segundo;
     }
 
+    /**
+     *
+     * Devolve o Tempo no formato 12h.
+     *
+     * @return
+     */
     public String getTempo12h() {
         String tempo12h = converter24hPara12h();
         return tempo12h;
     }
 
+    /**
+     *
+     * Converte o Tempo do formato 24h para 12h.
+     *
+     * @return
+     */
     private String converter24hPara12h() {
         String tempoConv = "::";
         boolean flagPM = false;
@@ -86,6 +163,11 @@ public class Tempo {
         return tempoConv;
     }
 
+    /**
+     *
+     * Soma 1 segundo à instância de Tempo
+     *
+     */
     public void somarSegundo() {
         this.segundo += 1;
         if (this.segundo > 60) {
@@ -103,6 +185,14 @@ public class Tempo {
         }
     }
 
+    /**
+     *
+     * Retorna true/false caso a instância maior seja maior/menos que o
+     * parametro tempo 2
+     *
+     * @param tempo2 - parametro do tipo Tempo para comparação
+     * @return
+     */
     public boolean tempoMaior(Tempo tempo2) {
         boolean result = false;
 
@@ -125,6 +215,16 @@ public class Tempo {
         return result;
     }
 
+    /**
+     *
+     * Retorna true/false caso a instância maior seja maior/menos que o tempo
+     * inserido por parametros
+     *
+     * @param hora
+     * @param minuto
+     * @param segundo
+     * @return
+     */
     public boolean tempoMaior(int hora, int minuto, int segundo) {
         boolean result = false;
 
@@ -145,6 +245,14 @@ public class Tempo {
         return result;
     }
 
+    /**
+     *
+     * Retorna a diferença entre a instância de Tempo e a instância de tempo
+     * inserido por parametro
+     *
+     * @param tempo2
+     * @return
+     */
     public String diferencaTempo(Tempo tempo2) {
         String result = "::";
         int difHora = 0;
