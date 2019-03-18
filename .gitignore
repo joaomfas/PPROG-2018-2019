@@ -1,4 +1,10 @@
-/PL/PL5_Vencimentos/PL5/target/
-/TP/TP3-Tributaveis/nbproject/
-/PL/PL7_ContadoresDomesticos/nbproject/
-/PL/PL7_ContadoresDomesticos/target/
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
