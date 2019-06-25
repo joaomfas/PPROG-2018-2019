@@ -1,0 +1,13 @@
+amonteiro@servico1.pt;cat1
+amonteiro@servico1.pt;cat5
+estevesa@servico2.pt;cat6
+estevesa@servico2.pt;cat1
+rdas@servico3.pt;cat2
+rdas@servico3.pt;cat3
+rdas@servico3.pt;cat5
+ribeiro@servicos4.pt;cat4
+ricardo_r@serv5.pt;cat2
+ricardo_r@serv5.pt;cat3
+ricardo_r@serv5.pt;cat4
+calmeida@serv6.pt;cat6
+calmeida@serv6.pt;cat3

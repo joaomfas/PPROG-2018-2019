@@ -1,0 +1,6 @@
+cat1;limpeza
+cat2;reparação de canalizações
+cat3;reparação de sistemas elétricos
+cat4;reparação de fechaduras
+cat5;cuidados médicos
+cat6;educação

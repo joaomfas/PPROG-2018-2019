@@ -1,0 +1,6 @@
+1;Limpeza da casa;Limpeza completa de todas as divisões da casa;5;cat1;ServicoLimitado
+2;Consulta ao domicílio;Consulta de medicina geral ao domicílio;80;cat5;ServicoFixo;30
+3;Desentupimento;Desentupimento de canalizações variadas;30;cat2;ServicoExpansivel
+4;Instalação de circuito elétrico;Instalação de circuitos elétricos em divisões;50;cat3;ServicoExpansivel
+5;Instalação de fechadura;Instalação de fechadura em porta;25;cat4;ServicoFixo;60
+6;Explicações ao domicílio;Explicações de ensino primário ao domicilio;10;cat6;ServicoLimitado

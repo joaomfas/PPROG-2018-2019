@@ -1,0 +1,11 @@
+amonteiro@servico1.pt;Sé
+amonteiro@servico1.pt;Ramalde
+estevesa@servico2.pt;Sé
+estevesa@servico2.pt;Paranhos
+rdas@servico3.pt;Paranhos
+ribeiro@servicos4.pt;Ramalde
+ricardo_r@serv5.pt;Sé
+ricardo_r@serv5.pt;Paranhos
+ricardo_r@serv5.pt;Ramalde
+calmeida@serv6.pt;Paranhos
+calmeida@serv6.pt;Ramalde

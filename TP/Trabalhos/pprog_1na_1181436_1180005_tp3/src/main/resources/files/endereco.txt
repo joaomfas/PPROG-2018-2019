@@ -1,0 +1,7 @@
+mariajoao@isep.ipp.pt      ; R. Andradas  ; Sé  ; 4000-007
+mariajoao@isep.ipp.pt      ; R. Cegonhas  ; Ramalde ; 4100-007
+joaoferreira@isep.ipp.pt   ; R. Fernandes ; Paranhos ; 4200-007
+joaoferreira@isep.ipp.pt   ; R. Republica ; Sé  ; 4000-011
+josuemotta@isep.ipp.pt     ; R. Fanzeres  ; Ramalde  ; 4100-011
+antoniofreitas@isep.ipp.pt ; R. Camelias  ; Paranhos ; 4200-011
+brenopacheco@isep.ipp.pt   ; R. Fazendas  ; Sé ; 4000-007
